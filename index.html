@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Destinos</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="titulo">
+          <h1>Destinos</h1>
+        </div>
+  </header>
+
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-light  bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Hoteles</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#nacionales">Nacionales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#internacional">Aéreos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="">Página Principal</a></li>
+                      <li><a class="dropdown-item" href="#">Contacto</a></li>
+                      
+                      <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href= "#internacional">Internacional</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Elegi un destino" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        
+        
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/skiing.jpg" class="d-block w-100" alt="skiando">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/kayak.jpg" class="d-block w-100" alt="kayak">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/playa.jpg" class="d-block w-100" alt="playa">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+                 
+          </main>
+      
+<div class="titulo-section-internacionales">
+          <h2>Internacionales</h2>
+</div>
+
+<section id= "internacional" class= "internacionales">
+        
+    <div class="card" style="width: 18rem;">
+            <img src="./imagenes/grecia.jpg" class="card-img-top" alt="Grecia">
+            <div class="card-body">
+                <h5 class="card-title">Santorini Love!</h5>
+                <p class="card-text">
+                  Grecia te esta esperando! Vení a disfrutar del verano 2022
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Hostel</li>
+              <li class="list-group-item">Navegación</li>
+              <li class="list-group-item">All inclusive</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Más info</a>
+              <a href="#" class="card-link">Ver Fechas</a>
+            </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+            <img src="./imagenes/estatua-libertad.jpg" class="card-img-top" alt="Estatua de la libertad">
+            <div class="card-body">
+              <h5 class="card-title">Viví Nueva York!</h5>
+              <p class="card-text">Desde Buenos Aires, Noviembre 2021</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Hotel 3*</li>
+              <li class="list-group-item">Tours</li>
+              <li class="list-group-item">All inclusive</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Más info</a>
+              <a href="#" class="card-link">Ver fechas</a>
+            </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+            <img src="./imagenes/cancun.jpg" class="card-img-top" alt="cancun">
+            <div class="card-body">
+              <h5 class="card-title">Cancún Relax</h5>
+              <p class="card-text">
+                  ¿Necesitas relajarte? Nuestro paquete Cancún Relax es ideal para vos.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Hotel 5*</li>
+              <li class="list-group-item">Clase de Buceo</li>
+              <li class="list-group-item">All inclusive</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Más info</a>
+              <a href="#" class="card-link">Ver fechas</a>
+            </div>
+    </div>
+        
+    <div class="card" style="width: 18rem;">
+            <img src="./imagenes/eiffel-tower.jpg" class="card-img-top" alt="torre Eiffel">
+            <div class="card-body">
+              <h5 class="card-title">Francia Romance</h5>
+              <p class="card-text">Desde Buenos Aires en diciembre 2021¡No te quedes sin tu viaje!
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Hotel 3 </li>
+              <li class="list-group-item">Tours/Excursiones</li>
+              <li class="list-group-item">All Inclusive</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Más info</a>
+              <a href="#" class="card-link">Ver Fechas</a>
+            </div>
+    </div>
+
+</section>
+    
+<div class= "titulo-section-argentina">
+        <h2>Recorré Argentina</h2>
+</div>
+
+<section id= "nacionales" class="argentina">
+
+    <div class="card" style="width: 18rem;">
+        <img src="./imagenes/bariloche2.jpg" class="card-img-top" alt="Bariloche">
+        <div class="card-body">
+          <h5 class="card-title">Tour Bariloche</h5>
+          <p class="card-text">Bariloche se destaca por sus múltiples colores a lo largo del año, vení a conocerlo en VERANO 2022</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Hostel </li>
+          <li class="list-group-item">Excursión a Cerro Campanario</li>
+          <li class="list-group-item">Media Pensión</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Más info</a>
+          <a href="#" class="card-link">Ver Fechas</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/iguazu.jpg" class="card-img-top" alt="iguazu">
+        <div class="card-body">
+          <h5 class="card-title">Iguazú Time!</h5>
+          <p class="card-text">¿Querés conocer una de las maravillas del mundo? Este es el momento!</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Hotel 3* </li>
+          <li class="list-group-item">Navegación en Catamaran por la selva</li>
+          <li class="list-group-item">All inclusive</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Más info</a>
+          <a href="#" class="card-link">Ver Fechas</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/norte.jpg" class="card-img-top" alt="norte">
+        <div class="card-body">
+          <h5 class="card-title">Jujúy y Salta</h5>
+          <p class="card-text">Vení a conocer la variedad de paisajes que ofrece el norte nacional! </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Hotel 4*</li>
+          <li class="list-group-item">Recorridos por Purmamarca, Salinas Grandes y Humahuaca</li>
+          <li class="list-group-item">Incluye Cena</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Más info</a>
+          <a href="#" class="card-link">Ver Fechas</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/ballena2.jpg" class="card-img-top" alt="ballena">
+        <div class="card-body">
+          <h5 class="card-title">Puerto Madryn y Península Valdés!</h5>
+          <p class="card-text">Temporada ideal para avistamiento de la increíble ballena Franca Austral</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Hotel 3*</li>
+          <li class="list-group-item">Navegación</li>
+          <li class="list-group-item">All inclusive</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Más info</a>
+          <a href="#" class="card-link">Ver Fechas</a>
+        </div>
+      </div>
+
+</section>
+    
+    
+<div class="titulo-novedades">
+    <h2>Novedades</h2>
+</div>
+
+<section class="sector-informativo">
+    
+        <article class="PCR-misiones">
+            <div class="card" style="width: 18rem;">
+                <img src="./imagenes/PCRmisiones2.jpeg" class="card-img-top" alt="PCRmisiones">
+                <div class="card-body">
+                  <h5 class="card-title">Buenas Noticias</h5>
+                  <p class="card-text">Misiones elimino el testeo obligatorio para ingresar a la provincia. Lee el articulo completo haciendo click.</p>
+                  <a href="https://viajerosacataratas.com/informacion/requisitos-para-ingresar-a-misiones/" class="card-link-novedades">Ver Más</a>
+                  </div>
+              </div>
+        </article>
+
+        <article class= "previaje">
+            <div class="card" style="width: 18rem;">
+                <img src="./imagenes/logo-previaje.jpg" class="card-img-top" alt="previaje">
+                <div class="card-body">
+                  <h5 class="card-title">Previaje 50% Off</h5>
+                  <p class="card-text">Podes viajar y te devolvemos el 50% del monto total para que puedas seguir viajando durante todo el 2022.</p>
+    
+                  <a href="https://www.argentina.gob.ar/turismoydeportes/previaje" class="card-link-novedades">Ver Más</a>
+                 
+                </div>
+              </div>
+        </article>
+</section>
+
+    
+    
+    
+    <footer>
+        <div>
+            <h3>Destinos</h3>
+            <h4>Copyright</h3>
+            <h4>Terminos y Condiciones</h3>
+            <h4>legales</h4>
+        
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
